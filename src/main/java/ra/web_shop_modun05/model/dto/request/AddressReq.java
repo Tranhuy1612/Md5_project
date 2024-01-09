@@ -15,6 +15,5 @@ public class AddressReq {
     @Pattern(regexp = "^\\+?\\d{1,3}[- ]?\\(?(\\d{1,4})?\\)?[- ]?\\d{6,}$", message = "Số điện thoại không hợp lệ!")
     private String phone;
     @NotEmpty(message = "Không được để trống!")
-    private String address;
-    private String name;
+    private String diachi ;
 }
